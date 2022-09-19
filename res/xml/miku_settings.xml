@@ -19,11 +19,6 @@
     android:title="@string/miku_settings_title" >
 
          <Preference
-            android:key="traffic"
-            android:fragment="com.miku.exsettings.fragments.Traffic"
-            android:title="@string/traffic_title" />
-
-         <Preference
             android:key="media_notification"
             android:title="@string/artwork_media_title"
             android:fragment="com.miku.exsettings.fragments.MediaNotification" />

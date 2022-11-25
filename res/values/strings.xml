@@ -20,6 +20,8 @@
     <string name="miku_settings_summary">The Secret I have always dreamed of</string>
     <string name="device_part_title">Device Settings</string>
 
+    <string name="mubb_settings_title">MUBB Settings</string>
+
     <!-- Media notification -->
     <string name="artwork_media_title">🎼 Miku Media notification</string>
     <string name="artwork_media_background_title">Artwork media background</string>

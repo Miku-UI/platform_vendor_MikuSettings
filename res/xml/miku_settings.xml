@@ -39,4 +39,13 @@
                  android:targetClass="org.omnirom.device.DeviceSettings"/>
         </Preference>
 
+	<!-- MUBB Settings -->
+	<Preference
+	    android:key="mubb"
+	    android:persistent="false"
+	    android:title="@string/mubb_settings_title">
+	    <intent android:action="android.intent.action.VIEW"
+		 android:targetPackage="com.miku.mubb"
+		 android:targetClass="com.miku.mubb.settings.SettingsActivity"/>
+	</Preference>
 </PreferenceScreen>

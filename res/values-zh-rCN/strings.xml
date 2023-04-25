@@ -25,6 +25,10 @@
     <!-- Media notification -->
     <string name="artwork_media_title">🎼 Miku 音乐通知栏</string>
 
+    <!-- Media art -->
+    <string name="media_art_title">锁屏歌曲封面</string>
+    <string name="media_art_summary">在歌曲封面可用时，显示歌曲封面</string>
+
     <!-- Statusbar net monitor -->
     <string name="traffic_title">🌐 网速显示</string>
     <string name="network_traffic">🌐 网速显示</string>

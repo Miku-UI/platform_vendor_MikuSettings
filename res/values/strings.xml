@@ -30,6 +30,10 @@
     <string name="artwork_media_background_blur_radius_title">Blur amount for media artwork</string>
     <string name="artwork_media_background_alpha_title">Transparency of media artwork</string>
 
+    <!-- Media art -->
+    <string name="media_art_title">Media cover art</string>
+    <string name="media_art_summary">Display media cover art when available</string>
+
     <!-- Statusbar net monitor -->
     <string name="traffic_title">🌐 Traffic Indicators</string>
     <string name="network_traffic">🌐 Network traffic</string>

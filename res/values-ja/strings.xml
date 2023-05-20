@@ -38,7 +38,7 @@
   <string name="traffic_expanded_statusbar">拡張されたヘッダー</string>
   <string name="network_traffic_autohide_threshold_title">ネットアクティビティの自動非表示のしきい値 (KB/s)</string>
   <string name="network_traffic_arrow">矢印を表示</string>
-  <string name="network_traffic_arrow_summary">それはArrowOSじゃないけど、TH779はどこにあるの？</string>
+  <string name="network_traffic_arrow_summary">それは ArrowOS じゃないけど、TH779 はどこにあるの？</string>
   <string name="network_traffic_type">Miku UI ではどのように表示しますか？</string>
   <string name="show_network_traffic_combined">ツインズ</string>
   <string name="show_network_traffic_dynamic">必要なときのみ</string>

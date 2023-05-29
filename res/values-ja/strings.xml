@@ -14,7 +14,7 @@
      limitations under the License.
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="miku_settings_title">ミクのヒミツ</string>
-  <string name="miku_settings_summary">ずっと見ていたヒミツな夢</string>
+  <string name="miku_settings_summary">ずっと見ていた秘密な夢</string>
   <string name="device_part_title">デバイスの設定</string>
   <string name="mubb_settings_title">MUBB の設定</string>
   <!--メディア通知-->

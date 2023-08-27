@@ -63,4 +63,31 @@
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Label for the option that turns off customizations for a given category.-->
     <string name="theme_customization_device_default">Device default</string>
 
+    <!-- Smart Pixels -->
+    <string name="smart_pixels_warning_text">OLED 面板省电是一项实验性功能，通过单独关闭屏幕上的像素来实现省电功能（取决于“省电力度”选项哦）。但是请注意，在某些罕见的情况下，这可能会导致部分区域的触摸不灵敏，还请酌情使用此功能哦~(*￣▽￣*)</string>
+    <string name="smart_pixels_title">📴 Miku 屏幕省电</string>
+    <string name="smart_pixels_enable_title">启用 OLED 面板省电</string>
+    <string name="smart_pixels_enable_summary">关闭屏幕的一部分像素来减少耗电</string>
+    <string name="smart_pixels_on_power_save_title">省电模式绑定</string>
+    <string name="smart_pixels_on_power_save_summary">在开启省电模式的情况下，自动启用 OLED 面板省电</string>
+    <string name="smart_pixels_percent">省电力度</string>
+    <string name="smart_pixels_shift_title">烧屏保护</string>
+    <string name="smart_pixels_shift_summary">时不时替换明灭像素来防止屏幕被烧出印子！</string>
+    <string name="smart_pixels_percent_string_12">轻微</string>
+    <string name="smart_pixels_percent_string_25">较轻微</string>
+    <string name="smart_pixels_percent_string_38">中等</string>
+    <string name="smart_pixels_percent_string_50">较高</string>
+    <string name="smart_pixels_percent_string_62">高</string>
+    <string name="smart_pixels_percent_string_75">极高</string>
+    <string name="smart_pixels_percent_string_88">超级无敌高！（这还能看得清？）</string>
+    <string name="custom_timeout_summary_15secs">15 秒</string>
+    <string name="custom_timeout_summary_30secs">30 秒</string>
+    <string name="custom_timeout_summary_1min">1 分钟</string>
+    <string name="custom_timeout_summary_2mins">2 分钟</string>
+    <string name="custom_timeout_summary_5mins">5 分钟</string>
+    <string name="custom_timeout_summary_10mins">10 分钟</string>
+    <string name="custom_timeout_summary_20mins">20 分钟</string>
+    <string name="custom_timeout_summary_30mins">30 分钟</string>
+    <string name="custom_timeout_summary_1hour">1 小时</string>
+
 </resources>

@@ -60,4 +60,31 @@
     <string name="theme_customization_icon_pack_summary">すごい～ ステータスバーにカスタムアイコンを設定します</string>
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Label for the option that turns off customizations for a given category.-->
     <string name="theme_customization_device_default">デバイスのデフォルト</string>
+
+    <!-- Smart Pixels -->
+    <string name="smart_pixels_warning_text">「OLED パネルの省エネ機能」は実験的な機能で、画面上のピクセルを個別にオフにすることで省エネ機能を実現します（「省エネ度」の設定によって効果が変わるよ）。ただし、稀なケースでは一部の領域のタッチが敏感でなくなる可能性があるので、この機能は適度に使ってくださいね~(*￣▽￣*)</string>
+    <string name="smart_pixels_title">📴 Miku スクリーン省エネ</string>
+    <string name="smart_pixels_enable_title">OLED パネルの省エネ機能</string>
+    <string name="smart_pixels_enable_summary">スクリーンの一部のピクセルをオフにして電力消費を減らす</string>
+    <string name="smart_pixels_on_power_save_title">省電モードとの切り替えに連動する</string>
+    <string name="smart_pixels_on_power_save_summary">省電モードで自動的に OLED パネルの省電力機能を有効にする</string>
+    <string name="smart_pixels_percent">省エネ度</string>
+    <string name="smart_pixels_shift_title">OLED パネルのバーンイン保護</string>
+    <string name="smart_pixels_shift_summary">画面の焼き付きを防ぐため、定期的に OLED スクリーン上の点滅するピクセルを交換します！</string>
+    <string name="smart_pixels_percent_string_12">軽微</string>
+    <string name="smart_pixels_percent_string_25">それなりに </string>
+    <string name="smart_pixels_percent_string_38">普通</string>
+    <string name="smart_pixels_percent_string_50">かなり</string>
+    <string name="smart_pixels_percent_string_62">高め</string>
+    <string name="smart_pixels_percent_string_75">非常に高い</string>
+    <string name="smart_pixels_percent_string_88">非常に非常に非常に高い！（マジか？）</string>
+    <string name="custom_timeout_summary_15secs">15 秒</string>
+    <string name="custom_timeout_summary_30secs">30 秒</string>
+    <string name="custom_timeout_summary_1min">1 分</string>
+    <string name="custom_timeout_summary_2mins">2 分</string>
+    <string name="custom_timeout_summary_5mins">5 分</string>
+    <string name="custom_timeout_summary_10mins">10 分</string>
+    <string name="custom_timeout_summary_20mins">20 分</string>
+    <string name="custom_timeout_summary_30mins">30 分</string>
+    <string name="custom_timeout_summary_1hour">1 時間</string>
 </resources>

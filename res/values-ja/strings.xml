@@ -86,4 +86,8 @@
   <string name="custom_timeout_summary_20mins">20 分</string>
   <string name="custom_timeout_summary_30mins">30 分</string>
   <string name="custom_timeout_summary_1hour">1 時間</string>
+
+  <!-- Statusbar colorful icons -->
+  <string name="statusbar_colored_icons_title">カラフルなステータスバーアイコン</string>
+  <string name="statusbar_colored_icons_summary">ステータスバーをカラフルにする！（次に表示されたアイコンにのみ機能する）</string>
 </resources>

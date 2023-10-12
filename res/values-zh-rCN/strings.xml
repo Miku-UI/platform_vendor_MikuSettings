@@ -90,4 +90,8 @@
     <string name="custom_timeout_summary_30mins">30 分钟</string>
     <string name="custom_timeout_summary_1hour">1 小时</string>
 
+    <!-- Statusbar colorful icons -->
+    <string name="statusbar_colored_icons_title">多彩状态栏图标</string>
+    <string name="statusbar_colored_icons_summary">让状态栏变得五彩缤纷！（仅对新显示图标生效哦）</string>
+
 </resources>

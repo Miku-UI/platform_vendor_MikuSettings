@@ -63,7 +63,7 @@
   <!-- Smart Pixels -->
   <string name="smart_pixels_warning_text">OLED パネルのパワーセーバー機能は試験的な機能です。ピクセルを OFF にする数を多くすると、バッテリーの持ちが改善される可能性があります。しかし、場合によってはタッチの認識が悪くなる事に注意してくださいね～(*￣▽￣*)</string>
   <string name="smart_pixels_title">📴 ミクのスクリーンパワーセーバー</string>
-  <string name="smart_pixels_enable_title">OLEDパネルのパワーセーバーを有効化する</string>
+  <string name="smart_pixels_enable_title">OLED パネルのパワーセーバーを有効化する</string>
   <string name="smart_pixels_enable_summary">消費電力を抑えるためにピクセルを一部 OFF にします</string>
   <string name="smart_pixels_on_power_save_title">バッテリーセーバーと連動する</string>
   <string name="smart_pixels_on_power_save_summary">バッテリーセーバーが有効化されている時に、OLED パネルのパワーセーバーを有効化します</string>
@@ -86,8 +86,7 @@
   <string name="custom_timeout_summary_20mins">20 分</string>
   <string name="custom_timeout_summary_30mins">30 分</string>
   <string name="custom_timeout_summary_1hour">1 時間</string>
-
   <!-- Statusbar colorful icons -->
   <string name="statusbar_colored_icons_title">カラフルなステータスバーアイコン</string>
-  <string name="statusbar_colored_icons_summary">ステータスバーをカラフルにする！（次に表示されたアイコンにのみ機能する）</string>
+  <string name="statusbar_colored_icons_summary">ステータスバーをもっとカラフルにします！ (次に表示されたアイコンにのみ機能します)</string>
 </resources>

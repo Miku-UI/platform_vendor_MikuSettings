@@ -29,6 +29,7 @@
     <string name="artwork_media_background_enable_blur_title">Blur media media artwork background</string>
     <string name="artwork_media_background_blur_radius_title">Blur amount for media artwork</string>
     <string name="artwork_media_background_alpha_title">Transparency of media artwork</string>
+    <string name="lyricsstub_settings_title">Miku UI Lyric Stub</string>
 
     <!-- Media art -->
     <string name="media_art_title">Media cover art</string>

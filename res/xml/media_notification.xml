@@ -29,5 +29,15 @@
             android:title="@string/media_art_title"
             android:summary="@string/media_art_summary"
             android:defaultValue="false" />
+            
+        <!-- MULS -->
+	<Preference
+	    android:key="lyric_stub"
+	    android:persistent="false"
+	    android:title="@string/lyricsstub_settings_title">
+	    <intent android:action="android.intent.action.VIEW"
+		 android:targetPackage="com.miku.lyricsstub"
+		 android:targetClass="com.miku.lyricsstub.MainActivity"/>
+	</Preference>
 
 </PreferenceScreen>

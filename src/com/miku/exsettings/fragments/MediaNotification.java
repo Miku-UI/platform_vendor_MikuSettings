@@ -35,9 +35,13 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto;
 
 import com.android.settings.R;
+import com.miku.settings.preferences.Utils;
 
 public class MediaNotification extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
+
+    final String KEY_MUMC_PACKAGE_NAME = "com.miku.musiccenter";
+    final String KEY_MULS = "lyric_stub";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -45,6 +49,9 @@ public class MediaNotification extends SettingsPreferenceFragment implements
         addPreferencesFromResource(R.xml.media_notification);
         ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
+        if (Utils.isPackageInstalled(getActivity(), KEY_MUMC_PACKAGE_NAME)) {
+            getPreferenceScreen().removePreference(findPreference(KEY_MULS));
+        }
     }
 
     @Override

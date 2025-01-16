@@ -45,13 +45,23 @@
                  android:targetClass="org.omnirom.device.DeviceSettings"/>
         </Preference>
 
-	<!-- MUBB Settings -->
-	<Preference
-	    android:key="mubb"
-	    android:persistent="false"
-	    android:title="@string/mubb_settings_title">
-	    <intent android:action="android.intent.action.VIEW"
-		 android:targetPackage="com.miku.mubb"
-		 android:targetClass="com.miku.mubb.settings.SettingsActivity"/>
-	</Preference>
+        <!-- MUMC -->
+        <Preference
+            android:key="mumc"
+            android:persistent="false"
+            android:title="@string/mumc_title">
+            <intent android:action="android.intent.action.VIEW"
+                 android:targetPackage="com.miku.musiccenter"
+                 android:targetClass="com.miku.musiccenter.MainActivity"/>
+        </Preference>
+
+        <!-- MUBB Settings -->
+        <Preference
+            android:key="mubb"
+            android:persistent="false"
+            android:title="@string/mubb_settings_title">
+            <intent android:action="android.intent.action.VIEW"
+                 android:targetPackage="com.miku.mubb"
+                 android:targetClass="com.miku.mubb.settings.SettingsActivity"/>
+        </Preference>
 </PreferenceScreen>

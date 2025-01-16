@@ -37,8 +37,10 @@ public class MikuSettings extends SettingsPreferenceFragment {
         super.onCreate(icicle);
         final String KEY_DEVICE_PART = "device_part";
         final String KEY_DEVICE_PART_PACKAGE_NAME = "org.omnirom.device";
-	final String KEY_MUBB = "mubb";
-	final String KEY_MUBB_PACKAGE_NAME = "com.miku.mubb";
+        final String KEY_MUBB = "mubb";
+        final String KEY_MUBB_PACKAGE_NAME = "com.miku.mubb";
+        final String KEY_MUMC = "mumc";
+        final String KEY_MUMC_PACKAGE_NAME = "com.miku.musiccenter";
 
         addPreferencesFromResource(R.xml.miku_settings);
 
@@ -47,9 +49,13 @@ public class MikuSettings extends SettingsPreferenceFragment {
             getPreferenceScreen().removePreference(findPreference(KEY_DEVICE_PART));
         }
 	// MUBB Settings
-	if (!Utils.isPackageInstalled(getActivity(), KEY_MUBB_PACKAGE_NAME)) {
-	    getPreferenceScreen().removePreference(findPreference(KEY_MUBB));
-	}
+        if (!Utils.isPackageInstalled(getActivity(), KEY_MUBB_PACKAGE_NAME)) {
+            getPreferenceScreen().removePreference(findPreference(KEY_MUBB));
+        }
+        // MUMC Settings
+        if (!Utils.isPackageInstalled(getActivity(), KEY_MUMC_PACKAGE_NAME)) {
+            getPreferenceScreen().removePreference(findPreference(KEY_MUMC));
+        }
     }
 
     @Override

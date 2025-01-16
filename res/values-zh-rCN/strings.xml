@@ -21,6 +21,7 @@
     <string name="device_part_title">专属设置</string>
 
     <string name="mubb_settings_title">MUBB 设置</string>
+    <string name="mumc_title">🎵 Miku UI 音乐中心</string>
 
     <!-- Media notification -->
     <string name="artwork_media_title">🎼 Miku 音乐通知栏</string>

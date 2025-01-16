@@ -18,6 +18,7 @@
   <string name="miku_settings_summary">夢見ていた ひみつ</string>
   <string name="device_part_title">デバイスの設定</string>
   <string name="mubb_settings_title">MUBB の設定</string>
+  <string name="mumc_title">🎵 Miku UI 音楽センター</string>
   <!-- Media notification -->
   <string name="artwork_media_title">🎼 ミクのメディア通知</string>
   <string name="artwork_media_background_title">アートワークメディアの背景</string>

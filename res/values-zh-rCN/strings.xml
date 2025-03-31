@@ -96,4 +96,9 @@
     <string name="statusbar_colored_icons_title">多彩状态栏图标</string>
     <string name="statusbar_colored_icons_summary">让状态栏变得五彩缤纷！（仅对新显示图标生效哦）</string>
 
+    <!-- Taskbar Settings -->
+    <string name="task_bar_title">🧩 Miku Home 任务栏设置</string>
+    <string name="task_bar_enable_title">启用 MIku Home 任务栏</string>
+    <string name="task_bar_enable_summary">在任何地方随意切换应用</string>
+
 </resources>

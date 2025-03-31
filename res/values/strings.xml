@@ -101,4 +101,8 @@
     <string name="statusbar_colored_icons_title">Colorful Statusbar Icons</string>
     <string name="statusbar_colored_icons_summary">Make your Statusbar more Colorful!(It only works on the next icon displayed.)</string>
 
+    <!-- Taskbar Settings -->
+    <string name="task_bar_title">🧩 Miku Home Taskbar Settings</string>
+    <string name="task_bar_enable_title">Enable Miku Home Taskbar</string>
+    <string name="task_bar_enable_summary">For opening and switching apps anywhere</string>
 </resources>

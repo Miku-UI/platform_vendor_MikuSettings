@@ -34,6 +34,12 @@
             android:title="@string/smart_pixels_title" 
             android:fragment="com.miku.exsettings.fragments.SmartPixels" />
 
+        <!-- Miku Home Taskbar -->
+        <Preference
+            android:key="miku_taskbar"
+            android:title="@string/task_bar_title"
+            android:fragment="com.miku.exsettings.fragments.TaskbarSettings" />
+
         <!-- Device Part -->
         <Preference
             android:key="device_part"

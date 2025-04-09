@@ -22,4 +22,9 @@
         android:summary="@string/task_bar_enable_summary"
         android:defaultValue="true" />
 
+    <com.miku.settings.preferences.SystemSettingSwitchPreference
+        android:key="navigation_bar_hint"
+        android:title="@string/task_bar_navbar_hint_title"
+        android:defaultValue="true" />
+
 </PreferenceScreen>

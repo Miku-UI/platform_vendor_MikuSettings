@@ -100,5 +100,6 @@
     <string name="task_bar_title">🧩 Miku Home 任务栏设置</string>
     <string name="task_bar_enable_title">启用 MIku Home 任务栏</string>
     <string name="task_bar_enable_summary">在任何地方随意切换应用</string>
+    <string name="task_bar_navbar_hint_title">显示小白条</string>
 
 </resources>

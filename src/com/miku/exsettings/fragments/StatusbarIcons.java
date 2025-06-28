@@ -98,6 +98,7 @@ public class StatusbarIcons extends SettingsPreferenceFragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
             @Nullable Bundle savedInstanceState) {
+        super.onCreateView(inflater, container, savedInstanceState);
         View view = inflater.inflate(
                 R.layout.item_view, container, false);
 

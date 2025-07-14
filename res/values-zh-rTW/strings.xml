@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2021 Miku UI
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="miku_settings_title">初音的祕密</string>
+    <string name="miku_settings_summary">我一直在追求的祕密</string>
+    <string name="device_part_title">裝置設定</string>
+
+    <string name="mubb_settings_title">Miku UI 音樂中心設定</string>
+    <string name="mumc_title">🎵 Miku UI 音樂中心</string>
+
+    <!-- Media notification -->
+    <string name="artwork_media_title">🎼 Miku 音樂通知</string>
+    <string name="artwork_media_background_title">歌曲封面背景</string>
+    <string name="artwork_media_background_summary">將音樂通知背景設為歌曲封面</string>
+    <string name="artwork_media_background_enable_blur_title">將歌曲封面模糊</string>
+    <string name="artwork_media_background_blur_radius_title">歌曲封面模糊度</string>
+    <string name="artwork_media_background_alpha_title">歌曲封面透明度</string>
+    <string name="lyricsstub_settings_title">Miku UI Lyrics Stub</string>
+
+    <!-- Media art -->
+    <string name="media_art_title">歌曲封面</string>
+    <string name="media_art_summary">於可用時顯示歌曲封面</string>
+
+    <!-- Statusbar net monitor -->
+    <string name="traffic_title">🌐 網速指示器</string>
+    <string name="network_traffic">🌐 網速顯示</string>
+    <string name="network_traffic_state_title">🌐 網速顯示</string>
+    <string name="network_traffic_location">要在哪顯示網速？</string>
+    <string name="traffic_disabled">打～咩!</string>
+    <string name="traffic_statusbar">狀態欄上！</string>
+    <string name="traffic_expanded_statusbar">上方的快捷選單！</string>
+    <string name="network_traffic_autohide_threshold_title">顯示網速的最低門檻（kb/s）</string>
+    <string name="network_traffic_arrow">顯示上下箭頭</string>
+    <string name="network_traffic_arrow_summary">↑↓↑↓↑↓Happy Happy Happy！</string>
+    <string name="network_traffic_type">要如何顯示網速？</string>
+    <string name="show_network_traffic_combined">乾脆合體吧（不區分上傳下載）</string>
+    <string name="show_network_traffic_dynamic"> 需要時再顯示</string>
+    <string name="show_network_traffic_up">有上傳就夠了</string>
+    <string name="show_network_traffic_down">有下載就夠了</string>
+    <string name="show_network_traffic_all">小孩才做選擇，我全都要！</string>
+    <string name="nettraf_font_size">只顯示一種網速時的字體大小</string>
+
+    <!-- Themes Settings -->
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the settings category for theme overlays. -->
+    <string name="theme_customization_category">🍀 初音圖示製造工廠</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize headline and body fonts. -->
+    <string name="theme_customization_font_title">字體</string>
+    <string name="theme_customization_font_summary">選擇你最喜歡的字體吧！</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the adaptive icon shape (e.g. launcher and quick settings icons). -->
+    <string name="theme_customization_icon_shape_title">圖示形狀</string>
+    <string name="theme_customization_icon_shape_summary">把圖示的輪廓改的奇形怪狀！</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the system wide icon pack. -->
+    <string name="theme_customization_icon_pack_title">圖示包</string>
+    <string name="theme_customization_icon_pack_summary">可以選擇自己喜歡的狀態欄圖示！</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Label for the option that turns off customizations for a given category.-->
+    <string name="theme_customization_device_default">裝置預設</string>
+
+    <!-- Smart Pixels -->
+    <string name="smart_pixels_warning_text">OLED 面板省電目前為實驗性功能。實際上所能省下的電量取決於關閉的像素數量。請注意，啟用此功能時可能導致觸控不靈敏，所以請斟酌使用歐！~(*￣▽￣*)</string>
+    <string name="smart_pixels_title">📴 初音螢幕省電</string>
+    <string name="smart_pixels_enable_title">啟用 OLED 面板省電</string>
+    <string name="smart_pixels_enable_summary">關閉像素以節省電量</string>
+    <string name="smart_pixels_on_power_save_title">省電模式綁定</string>
+    <string name="smart_pixels_on_power_save_summary">啟用省電模式時自動啟用 OLED 面板省電</string>
+    <string name="smart_pixels_percent">省電程度</string>
+    <string name="smart_pixels_shift_title">烙印防護</string>
+    <string name="smart_pixels_shift_summary">時不時更動像素排列以防止 OLED 面板烙印</string>
+    <string name="smart_pixels_percent_string_12">極輕微</string>
+    <string name="smart_pixels_percent_string_25">輕微</string>
+    <string name="smart_pixels_percent_string_38">中等</string>
+    <string name="smart_pixels_percent_string_50">比中等多一點點的中等</string>
+    <string name="smart_pixels_percent_string_62">高</string>
+    <string name="smart_pixels_percent_string_75">極高</string>
+    <string name="smart_pixels_percent_string_88">超級無敵他媽的高！（痾你還看得到啊？）</string>
+    <string name="custom_timeout_summary_15secs">15 秒</string>
+    <string name="custom_timeout_summary_30secs">30 秒</string>
+    <string name="custom_timeout_summary_1min">1 分鐘</string>
+    <string name="custom_timeout_summary_2mins">2 minutes</string>
+    <string name="custom_timeout_summary_5mins">5 minutes</string>
+    <string name="custom_timeout_summary_10mins">10 分鐘</string>
+    <string name="custom_timeout_summary_20mins">20 分鐘</string>
+    <string name="custom_timeout_summary_30mins">30 分鐘</string>
+    <string name="custom_timeout_summary_1hour">1 小時</string>
+
+    <!-- Statusbar colorful icons -->
+    <string name="statusbar_colored_icons_title">彩色狀態欄圖示</string>
+    <string name="statusbar_colored_icons_summary">讓你的狀態欄多「彩」多姿！（僅對新顯示圖示有效）</string>
+
+    <!-- Taskbar Settings -->
+    <string name="task_bar_title">🧩 初音主畫面任務欄設定</string>
+    <string name="task_bar_enable_title">啟用初音主畫面任務欄</string>
+    <string name="task_bar_enable_summary">隨時快速地切換應用程式</string>
+    <string name="task_bar_navbar_hint_title">顯示白蘿菠（畫面底下小白條）</string>
+</resources>

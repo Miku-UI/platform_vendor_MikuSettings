@@ -17,6 +17,13 @@
     android:key="media_notification"
     android:title="@string/artwork_media_title">
 
+        <!-- Statusbar Lyric -->
+        <com.miku.settings.preferences.SecureSettingSwitchPreference
+            android:key="status_bar_show_lyric"
+            android:title="@string/status_bar_show_lyric_title"
+            android:summary="@string/status_bar_show_lyric_summary"
+            android:defaultValue="true" />
+
         <com.miku.settings.preferences.SecureSettingSwitchPreference
             android:key="lockscreen_media_metadata"
             android:title="@string/media_art_title"

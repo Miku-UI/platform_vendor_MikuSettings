@@ -40,16 +40,6 @@
             android:title="@string/task_bar_title"
             android:fragment="com.miku.exsettings.fragments.TaskbarSettings" />
 
-        <!-- Device Part -->
-        <Preference
-            android:key="device_part"
-            android:persistent="false"
-            android:title="@string/device_part_title">
-            <intent android:action="android.intent.action.MAIN"
-                 android:targetPackage="org.omnirom.device"
-                 android:targetClass="org.omnirom.device.DeviceSettings"/>
-        </Preference>
-
         <!-- MUMC -->
         <Preference
             android:key="mumc"
@@ -68,5 +58,15 @@
             <intent android:action="android.intent.action.VIEW"
                  android:targetPackage="com.miku.mubb"
                  android:targetClass="com.miku.mubb.settings.SettingsActivity"/>
+        </Preference>
+
+        <!-- Device Part -->
+        <Preference
+            android:key="device_part"
+            android:persistent="false"
+            android:title="@string/device_part_title">
+            <intent android:action="android.intent.action.MAIN"
+                 android:targetPackage="org.omnirom.device"
+                 android:targetClass="org.omnirom.device.DeviceSettings"/>
         </Preference>
 </PreferenceScreen>

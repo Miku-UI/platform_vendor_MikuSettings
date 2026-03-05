@@ -17,7 +17,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="miku_settings_title">MikuのSecret</string>
-    <string name="miku_settings_summary">Secret 在夢中出現的祕密</string>
+    <string name="miku_settings_summary">Secret 在夢中出現 的祕密</string>
     <string name="device_part_title">📱 Miku 裝置專屬設定</string>
 
     <string name="mubb_settings_title">⚙️ Miku MUBB 設定</string>

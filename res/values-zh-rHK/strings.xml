@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2021 Miku UI
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="miku_settings_title">MikuのSecret</string>
+    <string name="miku_settings_summary">Secret 在夢中出現 的祕密</string>
+    <string name="device_part_title">📱 Miku 裝置專屬設定</string>
+
+    <string name="mubb_settings_title">⚙️ Miku MUBB 設定</string>
+    <string name="mumc_title">🎵 Miku UI 音樂中心</string>
+
+    <!-- Media notification -->
+    <string name="artwork_media_title">🎼 Miku 音樂通知欄</string>
+    <string name="lyricsstub_settings_title">Miku UI Lyrics Stub</string>
+
+    <!-- Media art -->
+    <string name="media_art_title">鎖定畫面歌曲封面</string>
+    <string name="media_art_summary">當歌曲封面可用時，顯示歌曲封面</string>
+
+    <!-- Statusbar net monitor -->
+    <string name="traffic_title">🌐 網速顯示</string>
+    <string name="network_traffic">🌐 網速顯示</string>
+    <string name="network_traffic_location">要在哪個位置顯示網速呢？</string>
+    <string name="traffic_disabled">唔使啦~</string>
+    <string name="traffic_statusbar">喺狀態列上面！</string>
+    <string name="traffic_expanded_statusbar">拉開狀態列後嘅快速選單入面！</string>
+    <string name="network_traffic_autohide_threshold_title">低於幾多少KB/s時隱藏網速顯示呢？</string>
+    <string name="network_traffic_arrow">用箭頭區分上載與下載~</string>
+    <string name="network_traffic_arrow_summary">箭頭？快啲去請779~！ε=ε=ε=┏(゜ロ゜;)┛</string>
+    <string name="network_traffic_type">要點樣顯示網速呢？</string>
+    <string name="show_network_traffic_combined">合體啦（唔區分上載下載）</string>
+    <string name="show_network_traffic_dynamic">有事啟奏，無事guna（動態顯示）</string>
+    <string name="show_network_traffic_up">只顯示上載就夠啦OnO</string>
+    <string name="show_network_traffic_down">只顯示下載就夠啦QvQ
+    </string>
+    <string name="show_network_traffic_all">我全部都要</string>
+    <string name="nettraf_font_size">只顯示一種網速時嘅字體大小</string>
+
+    <!-- Themes Settings -->
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the settings category for theme overlays. -->
+    <string name="theme_customization_category">🍀 Mikuの圖示工廠</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize headline and body fonts. -->
+    <string name="theme_customization_font_title">字體</string>
+    <string name="theme_customization_font_summary">將字體設定成自己想要嘅樣子吧！</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the adaptive icon shape (e.g. launcher and quick settings icons). -->
+    <string name="theme_customization_icon_shape_title">圖示形狀</string>
+    <string name="theme_customization_icon_shape_summary">將應用程式圖示變成奇奇怪怪嘅樣子（？</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the system wide icon pack. -->
+    <string name="theme_customization_icon_pack_title">狀態列圖示</string>
+    <string name="theme_customization_icon_pack_summary">好耶！可以自訂狀態列圖示！</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Label for the option that turns off customizations for a given category.-->
+    <string name="theme_customization_device_default">裝置預設</string>
+
+    <!-- Smart Pixels -->
+    <string name="smart_pixels_warning_text">OLED 面板省電係一項實驗性功能，透過單獨關閉螢幕上部分像素來達到省電效果（視乎「省電力度」選項）。不過請注意，喺某啲罕見情況下，可能會導致部分區域觸控不靈敏，請酌情使用此功能哦~(*￣▽￣*)</string>
+    <string name="smart_pixels_title">📴 Miku 螢幕省電</string>
+    <string name="smart_pixels_enable_title">啟用 OLED 面板省電</string>
+    <string name="smart_pixels_enable_summary">關閉螢幕部分像素以減少耗電</string>
+    <string name="smart_pixels_on_power_save_title">省電模式綁定</string>
+    <string name="smart_pixels_on_power_save_summary">開啟省電模式時，自動啟用 OLED 面板省電</string>
+    <string name="smart_pixels_percent">省電力度</string>
+    <string name="smart_pixels_shift_title">防燒印保護</string>
+    <string name="smart_pixels_shift_summary">不時替換明暗像素以防止螢幕出現殘影！</string>
+    <string name="smart_pixels_percent_string_12">輕微</string>
+    <string name="smart_pixels_percent_string_25">較輕微</string>
+    <string name="smart_pixels_percent_string_38">中等</string>
+    <string name="smart_pixels_percent_string_50">較高</string>
+    <string name="smart_pixels_percent_string_62">高</string>
+    <string name="smart_pixels_percent_string_75">極高</string>
+    <string name="smart_pixels_percent_string_88">超級無敵高！（這還能看得清？）</string>
+    <string name="custom_timeout_summary_15secs">15 秒</string>
+    <string name="custom_timeout_summary_30secs">30 秒</string>
+    <string name="custom_timeout_summary_1min">1 分鐘</string>
+    <string name="custom_timeout_summary_2mins">2 分鐘</string>
+    <string name="custom_timeout_summary_5mins">5 分鐘</string>
+    <string name="custom_timeout_summary_10mins">10 分鐘</string>
+    <string name="custom_timeout_summary_20mins">20 分鐘</string>
+    <string name="custom_timeout_summary_30mins">30 分鐘</string>
+    <string name="custom_timeout_summary_1hour">1 小時</string>
+
+    <!-- Statusbar colorful icons -->
+    <string name="statusbar_colored_icons_title">多彩狀態列圖示</string>
+    <string name="statusbar_colored_icons_summary">令狀態列變得五彩繽紛！（只對新顯示圖示生效）</string>
+
+    <!-- Taskbar Settings -->
+    <string name="task_bar_title">🧩 Miku Home 工作列設定</string>
+    <string name="task_bar_enable_title">啟用 Miku Home 工作列</string>
+    <string name="task_bar_enable_summary">隨時隨地快速切換應用程式</string>
+    <string name="task_bar_navbar_hint_title">顯示小白條</string>
+
+</resources>

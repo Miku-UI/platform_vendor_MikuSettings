@@ -18,9 +18,9 @@
 
     <string name="miku_settings_title">MikuのSecret</string>
     <string name="miku_settings_summary">Secret 在梦中出现 的秘密</string>
-    <string name="device_part_title">专属设置</string>
+    <string name="device_part_title">📱 Miku 设备专属设置</string>
 
-    <string name="mubb_settings_title">MUBB 设置</string>
+    <string name="mubb_settings_title">⚙️ Miku MUBB 设置</string>
     <string name="mumc_title">🎵 Miku UI 音乐中心</string>
 
     <!-- Media notification -->

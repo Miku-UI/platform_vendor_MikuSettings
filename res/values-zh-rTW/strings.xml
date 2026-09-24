@@ -56,9 +56,6 @@
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize headline and body fonts. -->
     <string name="theme_customization_font_title">字型</string>
     <string name="theme_customization_font_summary">把字型設定成自己想要的樣子吧！</string>
-    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the system wide icon pack. -->
-    <string name="theme_customization_icon_pack_title">狀態列圖示</string>
-    <string name="theme_customization_icon_pack_summary">好耶！是狀態列圖示自訂！</string>
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Label for the option that turns off customizations for a given category.-->
     <string name="theme_customization_device_default">裝置預設</string>
 

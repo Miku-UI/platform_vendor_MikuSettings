@@ -90,4 +90,10 @@
   <!-- Statusbar colorful icons -->
   <string name="statusbar_colored_icons_title">カラフルなステータスバーアイコン</string>
   <string name="statusbar_colored_icons_summary">ステータスバーをもっとカラフルにします！ (次に表示されたアイコンにのみ機能します)</string>
+  <string name="control_center_settings_title">🎛️ Miku コントロールセンター</string>
+  <string name="qs_header_image_title">コントロールセンターのヘッダー画像</string>
+  <string name="qs_header_image_restore">デフォルトに戻す</string>
+  <string name="qs_header_image_pick">ギャラリーから選択</string>
+  <string name="qs_header_image_alpha">透明度</string>
+  <string name="qs_header_image_load_failed">この画像は使えませんでした</string>
 </resources>

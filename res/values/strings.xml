@@ -106,4 +106,12 @@
     <string name="task_bar_enable_title">Enable Miku Home Taskbar</string>
     <string name="task_bar_enable_summary">For opening and switching apps anywhere</string>
     <string name="task_bar_navbar_hint_title">Show Gesture bar</string>
+
+    <!-- Control Center -->
+    <string name="control_center_settings_title">🎛️ Miku Control Center</string>
+    <string name="qs_header_image_title">Customize control center header</string>
+    <string name="qs_header_image_restore">Restore default</string>
+    <string name="qs_header_image_pick">Choose from gallery</string>
+    <string name="qs_header_image_alpha">Opacity</string>
+    <string name="qs_header_image_load_failed">Couldn\'t use this image</string>
 </resources>

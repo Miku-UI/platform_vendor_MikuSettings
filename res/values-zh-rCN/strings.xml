@@ -102,4 +102,12 @@
     <string name="task_bar_enable_summary">在任何地方随意切换应用</string>
     <string name="task_bar_navbar_hint_title">显示小白条</string>
 
+    <!-- Control Center -->
+    <string name="control_center_settings_title">🎛️ Miku 控制中心设置</string>
+    <string name="qs_header_image_title">控制中心头图自定义</string>
+    <string name="qs_header_image_restore">恢复默认</string>
+    <string name="qs_header_image_pick">从相册选择</string>
+    <string name="qs_header_image_alpha">透明度设置</string>
+    <string name="qs_header_image_load_failed">无法使用这张图片</string>
+
 </resources>

@@ -40,6 +40,12 @@
             android:title="@string/task_bar_title"
             android:fragment="com.miku.exsettings.fragments.TaskbarSettings" />
 
+        <!-- Control Center -->
+        <Preference
+            android:key="control_center_settings"
+            android:title="@string/control_center_settings_title"
+            android:fragment="com.miku.exsettings.fragments.ControlCenterSettings" />
+
         <!-- MUMC -->
         <Preference
             android:key="mumc"

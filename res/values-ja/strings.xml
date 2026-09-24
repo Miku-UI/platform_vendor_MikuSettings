@@ -53,9 +53,6 @@
   <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize headline and body fonts. -->
   <string name="theme_customization_font_title">フォント</string>
   <string name="theme_customization_font_summary">システムフォントのスタイルを自由に設定できます</string>
-  <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the adaptive icon shape (e.g. launcher and quick settings icons). -->
-  <string name="theme_customization_icon_shape_title">アイコンの形状</string>
-  <string name="theme_customization_icon_shape_summary">アプリアイコンの形状を設定すると見た目がおかしくなるかも (えっ？</string>
   <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the system wide icon pack. -->
   <string name="theme_customization_icon_pack_title">アイコンパック</string>
   <string name="theme_customization_icon_pack_summary">すごい～ ステータスバーにカスタムアイコンを設定します</string>

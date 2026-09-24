@@ -29,10 +29,4 @@
             android:summary="@string/theme_customization_icon_pack_summary"
             android:fragment="com.miku.exsettings.fragments.StatusbarIcons"/>
 
-        <Preference
-            android:key="android.theme.customization.adaptive_icon_shape"
-            android:title="@string/theme_customization_icon_shape_title"
-            android:summary="@string/theme_customization_icon_shape_summary"
-            android:fragment="com.miku.exsettings.fragments.IconShapes"/>
-
 </PreferenceScreen>

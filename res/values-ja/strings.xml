@@ -60,6 +60,7 @@
   <string name="smart_pixels_title">📴 ミクのスクリーンパワーセーバー</string>
   <string name="smart_pixels_enable_title">OLED パネルのパワーセーバーを有効化する</string>
   <string name="smart_pixels_enable_summary">消費電力を抑えるためにピクセルを一部 OFF にします</string>
+  <string name="smart_pixels_not_supported">このデバイスでは非対応です</string>
   <string name="smart_pixels_on_power_save_title">バッテリーセーバーと連動する</string>
   <string name="smart_pixels_on_power_save_summary">バッテリーセーバーが有効化されている時に、OLED パネルのパワーセーバーを有効化します</string>
   <string name="smart_pixels_percent">省電力レベル</string>

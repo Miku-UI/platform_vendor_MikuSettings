@@ -39,6 +39,7 @@ public class SmartPixels extends SettingsPreferenceFragment {
 
     private static final String TAG = "SmartPixels";
 
+    private static final String SMART_PIXELS_ENABLE = "smart_pixels_enable";
     private static final String SMART_PIXELS_FOOTER = "smart_pixels_footer";
 
     @Override
@@ -48,6 +49,18 @@ public class SmartPixels extends SettingsPreferenceFragment {
         addPreferencesFromResource(R.xml.smart_pixels);
 
         findPreference(SMART_PIXELS_FOOTER).setTitle(R.string.smart_pixels_warning_text);
+
+        if (!getResources().getBoolean(
+                com.android.internal.R.bool.config_supportSmartPixels)) {
+            PreferenceScreen screen = getPreferenceScreen();
+            for (int i = 0; i < screen.getPreferenceCount(); i++) {
+                Preference pref = screen.getPreference(i);
+                if (!SMART_PIXELS_FOOTER.equals(pref.getKey())) {
+                    pref.setEnabled(false);
+                }
+            }
+            findPreference(SMART_PIXELS_ENABLE).setSummary(R.string.smart_pixels_not_supported);
+        }
     }
 
     @Override

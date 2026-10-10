@@ -69,6 +69,7 @@
     <string name="smart_pixels_title">📴 Miku Screen Power Saver</string>
     <string name="smart_pixels_enable_title">Enable OLED Panel Power Saver</string>
     <string name="smart_pixels_enable_summary">Shut off pixels to reduce power consumption</string>
+    <string name="smart_pixels_not_supported">Not supported on this device</string>
     <string name="smart_pixels_on_power_save_title">Battery saver binding</string>
     <string name="smart_pixels_on_power_save_summary">Enable OLED Panel Power Saver when battery saver is enabled</string>
     <string name="smart_pixels_percent">Power-saving level</string>

@@ -64,6 +64,7 @@
     <string name="smart_pixels_title">📴 Miku 螢幕省電</string>
     <string name="smart_pixels_enable_title">啟用 OLED 面板省電</string>
     <string name="smart_pixels_enable_summary">關閉螢幕部分像素以減少耗電</string>
+    <string name="smart_pixels_not_supported">此裝置不支援</string>
     <string name="smart_pixels_on_power_save_title">與省電模式連動</string>
     <string name="smart_pixels_on_power_save_summary">開啟省電模式時，自動啟用 OLED 面板省電</string>
     <string name="smart_pixels_percent">省電力度</string>

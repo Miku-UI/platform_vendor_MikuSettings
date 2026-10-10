@@ -30,7 +30,7 @@ import com.miku.settings.preferences.Utils;
 
 import com.android.settings.SettingsPreferenceFragment;
 
-public class MikuSettings extends SettingsPreferenceFragment {
+public class MikuExSettings extends SettingsPreferenceFragment {
 
     @Override
     public void onCreate(Bundle icicle) {
